@@ -65,8 +65,42 @@ function writeToFile(fileName, data) {
 }
 
     const texto =
-`Ejemplo de texto
-${data.projectTitle}
+        `#${data.projectTitle}
+
+## Description
+${data.description}
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Test Instructions](#test-instructions)
+- [License](#license)
+- [GitHub Account](#github-account)
+- [Email Address](email-address)
+
+## Installation
+${data.installationInstr}
+
+## Usage
+${data.usageInfo}
+
+## Contribution Guidelines
+${data.contributionGuidelines}
+
+## Test Instructions
+${data.testInstr}
+
+## License
+${data.license}
+
+## GitHub Account
+${data.gitHubAcc}
+
+## Email Address
+${data.emailAddress}
+
 bye`;
     fs.writeFile(fileName, texto, (err) =>
     err ? console.log(err) : console.log('Success!'));
@@ -75,7 +109,7 @@ bye`;
 function init() {
     inquirer.prompt(questions).then((answers) => {
         console.log(JSON.stringify(answers, null, '  '));
-        writeToFile('salida2.txt', answers);
+        writeToFile('README.md', answers);
         //console.log(answers.projectTitle);
     });
 }
