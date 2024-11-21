@@ -57,11 +57,24 @@ const questions = [
 function writeToFile(fileName, data) {
     let textoLicencia;
     if (data.license == "apache") {
-        textoLicencia = "Licencia apache";
+        textoLicencia = `
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+        Apache License
+    Version 2.0, January 2004
+    http://www.apache.org/licenses/`;
     }if (data.license =="GNU"){
-        textoLicencia = "Licencia GNU";
+        textoLicencia = `
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+    GNU GENERAL PUBLIC LICENSE
+      Version 3, 29 June 2007
+        `;
     } if (data.license == "MIT") {
-        textoLicencia = "Licencia MIT";
+        textoLicencia = `
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+            MIT License
+    Copyright (c) Year Full name
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
+        `;
 }
 
     const texto =
@@ -96,7 +109,7 @@ ${data.testInstr}
 ${data.license}
 
 ## GitHub Account
-${data.gitHubAcc}
+https://github.com/${data.gitHubAcc}
 
 ## Email Address
 ${data.emailAddress}
