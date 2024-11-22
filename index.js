@@ -122,7 +122,7 @@ bye`;
 function init() {
     inquirer.prompt(questions).then((answers) => {
         console.log(JSON.stringify(answers, null, '  '));
-        writeToFile('README.md', answers);
+        writeToFile('README_generated.md', answers);
         //console.log(answers.projectTitle);
     });
 }
