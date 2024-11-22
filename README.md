@@ -1,7 +1,7 @@
-#Linguini's Recipe
+#Module 7 Challenge
 
 ## Description
-Linguini's Recipes is a cooking web application. It was designed with the idea that everyone can cook. The user-friendly interface makes it possible for anyone to cook the dish that he or she likes best.
+A code to use what we have learned about node.js in this bootcamp.
 
 ## Table of Contents
 
@@ -14,10 +14,10 @@ Linguini's Recipes is a cooking web application. It was designed with the idea t
 - [Email Address](email-address)
 
 ## Installation
-This web application guides the user by providing clear information about the time, the level of difficulty, the tools and the ingredients needed to prepare each dish.
+To run this application, you must have node.js version 22.11.0 and be able to install the inquirer.js package.
 
 ## Usage
-Once you have <br />everything you need, step-by-step instructions guide you through the recipe. The application also has a timer. This will help you calculate the exact time you need for your preparation.
+Run the program using the command "node index.js"
 
 ## Contribution Guidelines
 This web application has been created using HTML, JavaScript and a number of elements from the Bootstrap library for the CS
