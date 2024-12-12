@@ -20,19 +20,13 @@ To run this application, you must have node.js version 22.11.0 and be able to in
 Run the program using the command "node index.js"
 
 ## Contribution Guidelines
-This web application has been created using HTML, JavaScript and a number of elements from the Bootstrap library for the CS
+This web application has been created using node.js and the packages "inquirer" and "fs" from the npm library.
 
 ## Test Instructions
-Navigate to Linguini's Once you are on the landing page, you will see several images with different recipes.
-
-## License
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-apache
+Once you have run the application, follow the command line instructions to complete the required information.
 
 ## GitHub Account
 fsaldierna@banxico.org.mx
 
 ## Email Address
 FabianSaldierna
-
-bye
