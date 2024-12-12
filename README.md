@@ -9,7 +9,6 @@ A code to use what we have learned about node.js in this bootcamp.
 - [Usage](#usage)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Test Instructions](#test-instructions)
-- [License](#license)
 - [GitHub Account](#github-account)
 - [Email Address](email-address)
 
