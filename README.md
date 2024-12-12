@@ -23,7 +23,10 @@ This web application has been created using node.js and the packages "inquirer" 
 
 ## Test Instructions
 Once you have run the application, follow the command line instructions to complete the required information.
+
+##Submissions
 The file called "README_generated.md" was created by executing this application.
+A video of the application running can be seen here: https://drive.google.com/file/d/1H602Sp5dizHXtcXDxga8KCwibel5qZ3p/view
 
 ## GitHub Account
 fsaldierna@banxico.org.mx
