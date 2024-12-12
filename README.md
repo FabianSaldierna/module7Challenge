@@ -9,6 +9,7 @@ A code to use what we have learned about node.js in this bootcamp.
 - [Usage](#usage)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Test Instructions](#test-instructions)
+- [Submissions](#submissions)
 - [GitHub Account](#github-account)
 - [Email Address](email-address)
 
@@ -24,7 +25,7 @@ This web application has been created using node.js and the packages "inquirer" 
 ## Test Instructions
 Once you have run the application, follow the command line instructions to complete the required information.
 
-##Submissions
+## Submissions
 The file called "README_generated.md" was created by executing this application.
 A video of the application running can be seen here: https://drive.google.com/file/d/1H602Sp5dizHXtcXDxga8KCwibel5qZ3p/view
 
